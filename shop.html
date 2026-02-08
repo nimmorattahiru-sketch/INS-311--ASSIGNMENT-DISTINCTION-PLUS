@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrightMart Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>BrightMart Shop</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="blog.html">Blog</a>
+      <a id="cart">Cart (0)</a>
+    </nav>
+
+    <div class="container">
+      <section>
+        <h2>Shop By Category</h2>
+        <div class="grid">
+          <div class="card">
+            <img src="media/product1.jpg" alt="Wireless Headphones" />
+            <h3>Wireless Headphones</h3>
+            <p>₦25,000</p>
+            <button onclick="addToCart()">Add to Cart</button>
+          </div>
+
+          <div class="card">
+            <img src="media/product2.jpg" alt="Smart Watch" />
+            <h3>Smart Watch</h3>
+            <p>₦18,000</p>
+            <button onclick="addToCart()">Add to Cart</button>
+          </div>
+
+          <div class="card">
+            <img src="media/product3.jpg" alt="Bluetooth Speaker" />
+            <h3>Bluetooth Speaker</h3>
+            <p>₦12,000</p>
+            <button onclick="addToCart()">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>BrightMart Shop © 2026 | Lagos, Nigeria</p>
+    </footer>
+  </body>
+</html>
